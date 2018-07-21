@@ -76,7 +76,7 @@
             <div class="col-lg-offset-3 col-lg-6">
 				<div class="panel panel-default">
 				  <div class="panel-heading">
-				    <h3 class="progress-bar ">Laravel - ToDo List (Click on Each Item to Update or Delete)<a href="#" class="pull-right" data-toggle="modal" data-target="#myModal" id="addNew"><i class="fa fa-plus" aria-hidden="true"></i></a></h3>
+				    <h3 class="panel-success">Laravel - ToDo List (Click on Each Item to Update or Delete)<a href="#" class="pull-right" data-toggle="modal" data-target="#myModal" id="addNew"><i class="fa fa-plus" aria-hidden="true"></i></a></h3>
 				  </div>
 				  <div class="panel-body" id="items">
 				    @if(count($items)>0)
@@ -116,9 +116,9 @@
                             <p>Select Check to Complete this item<input type="checkbox" id="setItem" class="form-control"></p>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-warning" data-dismiss="modal" style="display:none;" id="delete">Delete</button>
-                            <button type="button" class="btn btn-primary" style="display:none;" data-dismiss="modal" id="update">Update</button>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal" id="add">Add item</button>
+                            <button type="button" class="btn btn-Danger" data-dismiss="modal" style="display:none;" id="delete">Delete</button>
+                            <button type="button" class="btn btn-default" style="display:none;" data-dismiss="modal" id="update">Update</button>
+                            <button type="button" class="btn btn-info" data-dismiss="modal" id="add">Add item</button>
                         </div>
                     </div><!-- /.modal-content -->
                 </div><!-- /.modal-dialog -->
