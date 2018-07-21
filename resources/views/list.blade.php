@@ -76,7 +76,7 @@
             <div class="col-lg-offset-3 col-lg-6">
 				<div class="panel panel-default">
 				  <div class="panel-heading">
-				    <h3 class="panel-title">Laravel - ToDo List (Click on Each Item to Update or Delete)<a href="#" class="pull-right" data-toggle="modal" data-target="#myModal" id="addNew"><i class="fa fa-plus" aria-hidden="true"></i></a></h3>
+				    <h3 class="progress-bar ">Laravel - ToDo List (Click on Each Item to Update or Delete)<a href="#" class="pull-right" data-toggle="modal" data-target="#myModal" id="addNew"><i class="fa fa-plus" aria-hidden="true"></i></a></h3>
 				  </div>
 				  <div class="panel-body" id="items">
 				    @if(count($items)>0)
