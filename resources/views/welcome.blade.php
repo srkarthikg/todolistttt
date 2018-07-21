@@ -72,8 +72,8 @@
                         <a href="{{ url('/home') }}">Home</a>
                         <a href="{{ url('/list') }}">ToDo List</a>
                     @else
-                        <a class = "btn btn-link" href="{{ url('/login') }}">Login</a>
-                        <a class = "btn btn-link" href="{{ url('/register') }}">Register</a>
+                        <a class ="btn btn-default" href="{{ url('/login') }}">Login</a>
+                        <a class ="btn btn-default" href="{{ url('/register') }}">Register</a>
                     @endif
                 </div>
             @endif
@@ -86,7 +86,7 @@
 					Please feel free about the tasks and leave with us.
 				</div>
                 <div class="links">
-                    <a target="_blank" href="https://github.com/phpac2017/todolist">Source Code - GitHub</a>
+                    Source Code - <a target="_blank" href="https://github.com/srkarthikg/todolistttt/">GitHub</a>
                 </div>
             </div>
         </div>
