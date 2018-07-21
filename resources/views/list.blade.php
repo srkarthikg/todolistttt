@@ -108,7 +108,8 @@
                         <div class="modal-body">
                             <input type="hidden" id="id">
                             <p><input type="text" id="addItem" placeholder="Please enter todo tasks" class="form-control"></p>
-                            <p>Please check the todo if tasks completed.<input type="checkbox" id="setItem" class="form-control collapse"></p>
+							
+                            <p>Please check the todo if tasks completed.<button type="button" class="btn btn-warning" data-toggle="colllapse">completed</button><input type="checkbox" id="setItem" class="form-control collapse"></p>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-Danger" data-dismiss="modal" style="display:none;" id="delete">Delete</button>
