@@ -72,8 +72,8 @@
                         <a href="{{ url('/home') }}">Home</a>
                         <a href="{{ url('/list') }}">ToDo List</a>
                     @else
-                        <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
+                        <a class = "btn btn-link" href="{{ url('/login') }}">Login</a>
+                        <a class = "btn btn-link" href="{{ url('/register') }}">Register</a>
                     @endif
                 </div>
             @endif
