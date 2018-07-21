@@ -104,16 +104,16 @@
 
             <!-- modal -->
             <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
-                <div class="modal-dialog" role="document"><!-- modal-dialog -->
+                <div class="modal-dialog modal-sm" role="document"><!-- modal-dialog -->
                     <div class="modal-content"><!-- modal-content -->
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="title">Add new item</h4>
+                            <h4 class="modal-title" id="title">Create new item</h4>
                         </div>
                         <div class="modal-body">
                             <input type="hidden" id="id">
-                            <p><input type="text" id="addItem" placeholder="Enter Values (Max 100 Char) ..." class="form-control"></p>
-                            <p>Select Check to Complete this item<input type="checkbox" id="setItem" class="form-control"></p>
+                            <p><input type="text" id="addItem" placeholder="Please enter todo tasks" class="form-control"></p>
+                            <p>Please check the todo if tasks completed.<input type="checkbox" id="setItem" class="form-control"></p>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-Danger" data-dismiss="modal" style="display:none;" id="delete">Delete</button>
